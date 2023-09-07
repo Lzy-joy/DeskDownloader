@@ -64,7 +64,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.EllaDownloader [packageMsi]">
+  <component name="RunManager" selected="Gradle.EllaDownloader [packageDmg]">
     <configuration name="EllaDownloader [packageDmg]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -111,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EllaDownloader [packageMsi]" />
         <item itemvalue="Gradle.EllaDownloader [packageDmg]" />
+        <item itemvalue="Gradle.EllaDownloader [packageMsi]" />
       </list>
     </recent_temporary>
   </component>
