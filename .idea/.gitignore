@@ -34,6 +34,8 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+./workspace.xml
+./misc.xml
 
 ### VS Code ###
 .vscode/
