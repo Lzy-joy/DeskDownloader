@@ -1,3 +1,4 @@
+import org.jetbrains.compose.ComposePlugin.DesktopDependencies.linux_x64
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 
 plugins {
@@ -32,6 +33,16 @@ compose.desktop {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "EllaDownloader"
             packageVersion = "1.0.0"
+            macOS {
+                dockName = "EllaDownloader"
+                iconFile.set(project.file("src/main/resources/icon/ic_launcher.icns"))
+            }
+            linux {
+                iconFile.set(project.file("src/main/resources/icon/ic_launcher.png"))
+            }
+            windows {
+                iconFile.set(project.file("src/main/resources/icon/ic_launcher.ico"))
+            }
         }
     }
 }

@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab891ac5-5cc6-40a8-b691-c03cce0eb09e" name="Changes" comment="" />
+    <list default="true" id="ab891ac5-5cc6-40a8-b691-c03cce0eb09e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utils/FileUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/widget/DownloadBreakWarningDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/widget/DownloadedDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/widget/ErrorDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/ic_launcher.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/ic_launcher.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icon/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/download/DownloadUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/download/DownloadUtil.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,14 +69,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lizhenya/Documents/developer/github/DeskDownloader",
+    "last_opened_file_path": "/Users/lizhenya/Documents/developer/github/DeskDownloader/src/main/resources/icon",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3816092",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.EllaDownloader [packageDmg]">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/icon" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.desktop">
     <configuration name="EllaDownloader [packageDmg]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />

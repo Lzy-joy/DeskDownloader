@@ -12,6 +12,10 @@ object DownloadUtil {
     private var okHttpClient: OkHttpClient = OkHttpClient()
 
     fun download(url: String, saveDir: String, listener: OnDownloadListener) {
+        if (!url.startsWith("http") && url.startsWith("https")) {
+            listener.onDownloadFailed()
+            return
+        }
         val request: Request = Request.Builder().url(url).build()
         okHttpClient.newCall(request).enqueue(object : Callback {
 
@@ -26,7 +30,7 @@ object DownloadUtil {
                 var fos: FileOutputStream? = null
                 try {
                     response.body?.let { resBody ->
-                        ips = resBody.byteStream() ?: return@let
+                        ips = resBody.byteStream()
                         val total: Long = resBody.contentLength()
                         val file = File(saveDir, getNameFromUrl(url))
                         fos = FileOutputStream(file)
