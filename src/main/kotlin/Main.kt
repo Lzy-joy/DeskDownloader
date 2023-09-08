@@ -11,6 +11,8 @@ import androidx.compose.ui.awt.ComposeWindow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.painter.ColorPainter
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.useResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
@@ -127,6 +129,8 @@ fun App(isDownloadingFunc: ((Boolean) -> Unit)?) {
                     errorUrlList.clear()
                     totalMount = urlList.size
                     downloadingTxt = "下载中..."
+                    downloading = true
+                    isDownloadingFunc?.invoke(true)
                     startDownload(urlList, chooseDownloadDir.absolutePath) { _, errorUrl, restMount ->
                         downloading = restMount != 0
                         isDownloadingFunc?.invoke(downloading)
@@ -186,7 +190,7 @@ fun main() = application {
         onCloseRequest = handleExitApp,
         undecorated = false,
         transparent = false,
-        icon = ColorPainter(Color.Red),
+        icon = painterResource("icon/ic_launcher.png"),
         state = rememberWindowState(
             size = DpSize(800.dp, 600.dp),
             position = WindowPosition.Aligned(Alignment.Center)

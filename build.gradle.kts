@@ -45,6 +45,8 @@ compose.desktop {
                 iconFile.set(project.file("src/main/resources/icon/ic_launcher.png"))
             }
             windows {
+                shortcut = true
+                dirChooser = true
                 iconFile.set(project.file("src/main/resources/icon/ic_launcher.ico"))
             }
         }
