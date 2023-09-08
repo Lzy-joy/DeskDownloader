@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab891ac5-5cc6-40a8-b691-c03cce0eb09e" name="Changes" comment="优化">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/widget/DownloadBreakWarningDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/widget/DownloadBreakWarningDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/widget/DownloadedDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/widget/DownloadedDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/widget/ErrorDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/widget/ErrorDialog.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +63,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender configuration",
+    "Notification.DoNotAsk-WindowsDefender": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lizhenya/Documents/developer/github/DeskDownloader/src/main/resources/icon",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/diandu100/IdeaProjects/DeskDownloader/src/main/kotlin",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3816092",
@@ -69,6 +78,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diandu100\IdeaProjects\DeskDownloader\src\main\kotlin" />
       <recent name="$PROJECT_DIR$/src/main/resources/icon" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -162,6 +172,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="优化" />
     <option name="LAST_COMMIT_MESSAGE" value="优化" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-graphics-desktop/1.4.1/c7bf0f34d8249be48f469acb69d0bae872518cf0/ui-graphics-desktop-1.4.1-sources.jar!/commonMain/androidx/compose/ui/graphics/painter/Painter.kt</url>
+          <line>38</line>
+          <properties class="androidx.compose.ui.graphics.painter.Painter" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,9 +1,15 @@
+@file:OptIn(ExperimentalComposeUiApi::class)
+
 package widget
 
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.res.*
 import javax.swing.JDialog
 import javax.swing.JOptionPane
 
 class DownloadBreakWarningDialog {
+    private val loadImageBitmap = loadImageBitmap(ResourceLoader.Default.load("icon/ic_launcher.png"))
     private val ops = arrayOf("取消", "确定")
     private var pane: JOptionPane = JOptionPane(
         "是否确认终止下载?",
@@ -20,6 +26,7 @@ class DownloadBreakWarningDialog {
 
     fun showDialog(): Int {
         val dialog: JDialog = pane.createDialog("⚠️警告")
+        dialog.setIconImage(loadImageBitmap.toAwtImage())
         dialog.show()
         dialog.dispose()
         val selectedValue = (pane.value) as? String ?: return JOptionPane.CLOSED_OPTION
