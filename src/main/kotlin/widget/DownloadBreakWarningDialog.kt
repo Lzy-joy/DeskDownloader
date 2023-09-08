@@ -1,5 +1,3 @@
-@file:OptIn(ExperimentalComposeUiApi::class)
-
 package widget
 
 import androidx.compose.ui.ExperimentalComposeUiApi
@@ -9,6 +7,7 @@ import javax.swing.JDialog
 import javax.swing.JOptionPane
 
 class DownloadBreakWarningDialog {
+    @OptIn(ExperimentalComposeUiApi::class)
     private val loadImageBitmap = loadImageBitmap(ResourceLoader.Default.load("icon/ic_launcher.png"))
     private val ops = arrayOf("取消", "确定")
     private var pane: JOptionPane = JOptionPane(
