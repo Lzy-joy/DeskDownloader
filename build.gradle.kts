@@ -10,9 +10,14 @@ group = "com.ella"
 version = "1.0-SNAPSHOT"
 
 repositories {
+    maven("https://repo1.maven.org/maven2/")
+    maven("https://developer.huawei.com/repo/")
+    maven("https://jitpack.io")
     mavenCentral()
     maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
     google()
+    maven("https://maven.aliyun.com/repository/public")
+    maven("https://maven.aliyun.com/repository/google")
 }
 
 dependencies {
@@ -21,8 +26,7 @@ dependencies {
     // (in a separate module for demo project and in testMain).
     // With compose.desktop.common you will also lose @Preview functionality
     implementation(compose.desktop.currentOs)
-    implementation("com.squareup.okhttp3:okhttp:4.10.0")
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
 }
 
 compose.desktop {
